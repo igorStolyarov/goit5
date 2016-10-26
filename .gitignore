@@ -1,7 +1,3 @@
-# folder
-.idea/*
-out/*
-
-# class files
-*.class
+/.idea/
+/out/
 
