@@ -7,7 +7,7 @@ public class BalanceWithDraw {
             System.out.println("OK. " + "Your balance : " + (balance - withdraw));
 
         } else {
-            System.out.println("NO. " + "Your balance : " + (balance));
+            System.out.println("NO. " + "Your balance : " + balance);
         }
         return balance;
     }
