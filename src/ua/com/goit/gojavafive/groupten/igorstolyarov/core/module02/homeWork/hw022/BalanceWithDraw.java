@@ -1,4 +1,4 @@
-package ua.com.goit.gojavafive.groupeight.igorstolyarov.core.module02.homeWork.hw022;
+package ua.com.goit.gojavafive.groupten.igorstolyarov.core.module02.homeWork.hw022;
 
 public class BalanceWithDraw {
 
@@ -11,7 +11,7 @@ public class BalanceWithDraw {
         double commission = withdraw * 0.05;
         double finallyWithdraw = withdraw + commission;
 
-        if ((withdraw + commission) <= balance) {
+        if (finallyWithdraw <= balance) {
             System.out.println(okStr + commission + balStr + (balance - finallyWithdraw));
         } else {
             System.out.println(noStr + balStr + balance);
